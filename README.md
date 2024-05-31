@@ -16,9 +16,9 @@ Pass credit card information to the `validate()` method. In the following exampl
 var CreditCard = require('credit-card');
 var card = {
   cardType: 'VISA',
-  number: '4111111111111111',
-  expiryMonth: '03',
-  expiryYear: '2100',
+  number: '4516070016650667',
+  expiryMonth: '11',
+  expiryYear: '2026',
   cvv: '123'
 };
 var validation = CreditCard.validate(card);
